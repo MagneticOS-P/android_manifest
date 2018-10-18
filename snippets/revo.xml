@@ -17,11 +17,6 @@
           fetch="https://github.com/omnirom/"
           revision="android-9.0" />
 
-  <remote name="lineage"
-          fetch="https://github.com/LineageOS/"
-          revision="lineage-16.0" />
-
-
   <!-- Manifest -->
   <project path="android" name="android_manifest" remote="revo" /> 
 
