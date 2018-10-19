@@ -41,6 +41,7 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="revo" />
+  <project path="packages/apps/RevoSettings" name="packages_apps_RevoSettings" remote="revo" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="github" revision="lineage-16.0"  />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omni" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="omni" />
