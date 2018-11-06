@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="revo"
-          fetch="https://github.com/revos-p"
+          fetch="https://github.com/RevolutionOS-P"
           revision="pie" />
 
   <remote name="revo-devices"
