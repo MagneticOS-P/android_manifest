@@ -17,20 +17,13 @@
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="pixel" />
-  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="pixel" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" revision="pie-caf-8084" remote="pixel" />
-  <project path="hardware/qcom/audio-caf/sdm845" name="hardware_qcom_audio" revision="pie-caf-845" remote="pixel" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" revision="pie-caf" remote="pixel" />
-  <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" revision="pie-caf-8084" remote="pixel" />
-  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" revision="pie-caf-8996" remote="pixel" />
-  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" revision="pie-caf-8998" remote="pixel" />
-  <project path="hardware/qcom/display-caf/sdm845" name="hardware_qcom_display" revision="pie-caf-845" remote="pixel" />
-  <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" revision="pie-caf-8084" remote="pixel" />
-  <project path="hardware/qcom/media-caf/sdm845" name="hardware_qcom_media" revision="pie-caf-845" remote="pixel" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio-caf_msm8952" revision="pie" remote="pixel" />
+  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt-caf" revision="pie" remote="pixel" />
+  <project path="hardware/qcom/display-caf/msm8952" name="hardware_qcom_display-caf_msm8952" revision="pie" remote="pixel" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="pixel" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="pixel" />
+  <project path="hardware/qcom/media-caf/msm8952" name="hardware_qcom_media-caf_msm8952" revision="pie" remote="pixel" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="pixel" />
-  <project path="hardware/ril-caf" name="hardware_ril" revision="pie-caf" remote="pixel" />
+  <project path="hardware/ril-caf" name="hardware_ril-caf" revision="pie" remote="pixel" />
   <project path="system/qcom" name="system_qcom" remote="pixel" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixel" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixel" />
@@ -42,7 +35,6 @@
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
   <project path="frameworks/native" name="frameworks_native" remote="pixel" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
@@ -55,8 +47,9 @@
   </project>
   <project path="build/kati" name="build_kati" remote="pixel" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
+
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
@@ -64,6 +57,7 @@
   <project path="hardware/custom/telephony" name="hardware_custom_telephony" remote="pixel" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
+  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="pixel" />
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="pixel" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="pixel" />
   <project path="hardware/ril" name="hardware_ril" remote="pixel" />
@@ -73,24 +67,17 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
-  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="pixel" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
-  <project path="packages/apps/KeyChain" name="packages_apps_KeyChain" remote="pixel" />
-  <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="pixel" />
-  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
-  <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
-  <project path="packages/apps/TvSettings" name="packages_apps_TvSettings" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
   <project path="packages/apps/WallpapersBReel2017" name="packages_apps_WallpapersBReel2017" remote="pixel-gitlab" clone-depth="1" />
   <project path="packages/apps/WallpapersBReel2018" name="packages_apps_WallpapersBReel2018" remote="pixel-gitlab" clone-depth="1" />
+  <project path="packages/providers/AmbientPlayHistoryProvider" name="packages_providers_AmbientPlayHistoryProvider" remote="pixel" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="pixel" />
-  <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel" />
 
   <!-- Prebuilts -->
@@ -98,7 +85,6 @@
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="pixel" />
-  <project path="system/connectivity/wificond" name="system_connectivity_wificond" remote="pixel" />
   <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel" />
