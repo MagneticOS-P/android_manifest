@@ -2,7 +2,7 @@
 
 
 # Initialize local repository
-repo init -u https://github.com/revos-p/android_manifest -b pie
+repo init -u https://github.com/RevolutionOS-P/android_manifest -b pie
 
 # Sync
 repo sync -c -jx --force-sync --no-clone-bundle --no-tags
