@@ -10,7 +10,7 @@
           revision="pie" />
 
   <remote name="revo-gitlab"
-          fetch="https://gitlab.com/rev-p"
+          fetch="https://gitlab.com/RevolutionOS-AOSP"
           revision="pie" />
 
   <remote name="omni"
