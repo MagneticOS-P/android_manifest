@@ -41,6 +41,7 @@
   <project path="vendor/aosp" name="android_vendor_revo" remote="revo" />
   <project path="vendor/gapps" name="vendor_gapps" remote="revo-gitlab" clone-depth="1" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="revo" />
+  <project path="vendor/themes" name="vendor_themes" remote="revo" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="revo" />
